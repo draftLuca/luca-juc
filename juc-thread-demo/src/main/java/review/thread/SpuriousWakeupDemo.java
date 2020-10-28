@@ -5,6 +5,11 @@ package review.thread;
  *  原由：wait()并不是由notify()或notifyall()唤醒
  *  解决：定义一个循环去判断是否条件真能满足
  *
+ * 1.高内聚低耦合前提下，线程操作资源类
+ * 2.判断|干活|通知
+ * 3.多线程交互中，必须要防止多线程的虚假唤醒
+ * 4.标志位
+ *
  */
 public class SpuriousWakeupDemo {
     public static void main(String[] args) {
