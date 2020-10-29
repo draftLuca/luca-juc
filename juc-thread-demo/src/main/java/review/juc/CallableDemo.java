@@ -1,4 +1,4 @@
-package review.thread;
+package review.juc;
 
 import com.sun.org.apache.bcel.internal.generic.NEW;
 

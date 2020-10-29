@@ -1,4 +1,4 @@
-package review.thread;
+package review.juc;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
