@@ -8,6 +8,10 @@ import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 使用callable实现开启线程
+ *      FutureTask是runable的实现类，同时构造时用callable构造，可用于new thread
+ * callabel & runable
+ *      有返回值，有抛异常，run() call() ,使用泛型
  * 1 GET方法一般放最后一行
  */
 public class CallableDemo {
