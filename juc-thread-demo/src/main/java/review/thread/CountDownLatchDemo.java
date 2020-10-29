@@ -4,7 +4,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * 同步辅助工具
- *  在执行countDownLatch.await()时会阻塞，直到countDownLatch 的计数器为0
+ *  在执行countDownLatch.await()时会阻塞，直到countDownLatch 的计数器为0 才会继续执行主线程
  */
 public class CountDownLatchDemo {
 
