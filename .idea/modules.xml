@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/juc-thread-demo/juc-thread-demo.iml" filepath="$PROJECT_DIR$/juc-thread-demo/juc-thread-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/luca-juc.iml" filepath="$PROJECT_DIR$/.idea/luca-juc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-demo/stream-demo.iml" filepath="$PROJECT_DIR$/stream-demo/stream-demo.iml" />
     </modules>
   </component>
 </project>

@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="stream-demo" />
         <module name="juc-thread-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="juc-thread-demo" target="8" />
+      <module name="stream-demo" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

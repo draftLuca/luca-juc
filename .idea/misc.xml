@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/juc-thread-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-demo/pom.xml" />
       </list>
     </option>
   </component>
